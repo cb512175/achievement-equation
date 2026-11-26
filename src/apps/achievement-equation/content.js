@@ -8,7 +8,7 @@ window.APP = {
   kicker: "HoldFast · The AchievementEquation",
   headline: "Angles + Allies + Advantages = Achievements",
   intro: "Clint wrote this equation on a 3x5 card in 8th grade, when he was the 5th-string fullback on a team with only 3 other fullbacks. Talent is real, but it isn't enough. It became one third of the equation, not the whole story. These lessons walk through each piece, then help you score your reps against it.",
-  how: ["Learn: one piece of the equation at a time", "Rep: plan with the equation before, review with it after", "Score: Bad −1 to Excellent +2 (Elite +3 is for game day)", "Talk it through with CoachClint"],
+  how: ["Learn: one piece of the equation at a time", "Rep: plan with the equation before, review with it after", "Score: Bad −1 to Excellent +2 (Elite +3 is for your Game Days)", "Talk it through with CoachClint"],
   scoreFocusLabel: "Where this rep lives",
   scoreFocus: ["Angles", "Allies", "Advantages", "The whole equation"],
   breakdown: [
@@ -93,14 +93,14 @@ window.APP = {
       body: [
         "\"The scoring systems aren't judgements … they're data … they give me fast ways to decide 1 of 3 paths to take\" as you measure the impact of a tactic, technique, teammate, tool, or technology. Push, pause, or pivot.",
         "The official HoldFast scale: <b>Bad −1 · Average 0 · Good +1 · Excellent +2.</b>",
-        "<b>Elite +3 is saved for game day</b> … the actual game, the real mission, the other side of the actual adventure. In practice, drills, and course work, Excellent +2 is the ceiling. \"Love the fire. But Elite is saved for game day.\"",
+        "<b>Elite +3 is reserved for your Game Days</b> … the live and real events <i>you</i> name in DryDock, where ascending into Elite is critical. Everything else tops out at Excellent +2. \"Love the fire. But Elite is reserved for your Game Days.\"",
         "<b>The Courage Credit (+0.5):</b> the first time you try something, your floor is +0.5. \"We can't call it good, but it's more than average because it took courage to try it.\" It shows as its own badge, even if you scored higher. After that, the normal scale applies.",
         "It comes from Clint's teaching that \"curiosity is the first evidence of courage\" … and from \"I couldn't\" vs. \"I can't\": one means we didn't try, the other means we did."
       ],
-      quote: "Elite is saved for game day.",
+      quote: "Elite is reserved for your Game Days.",
       rep: "Score today's most important rep, breaking it down across the Angles, Allies, and Advantages.",
       reflect: "Which part of the equation scores lowest for you, week after week?",
-      note: "Scores are data, not judgements: Bad −1, Average 0, Good +1, Excellent +2, Elite +3 only on game day, and a +0.5 Courage Credit floor for first attempts.",
+      note: "Scores are data, not judgements: Bad −1, Average 0, Good +1, Excellent +2, Elite +3 only for reps tagged to your own Game Days (live or real events from DryDock), and a +0.5 Courage Credit floor for first attempts.",
       ask: "Want to score a rep together?" },
     { id: "ae7", title: "The Achieving Average", mins: 3, focus: "The whole equation", related: ["achieving-average", "d3", "doubt"],
       lead: "Fear the Achieving Average.",
@@ -128,6 +128,20 @@ window.APP = {
       rep: "Find one \"I can't\" in your week. Make it \"I haven't tried (yet)\" and take the first rep.",
       reflect: "What would you try if you only needed 20 seconds of brave?",
       note: "Clint banishes 'I can't' but welcomes 'I couldn't': one means we didn't try and the other means we did. First attempts earn a Courage Credit (+0.5 floor).",
-      ask: "Is there an 'I can't' you'd like to swap?" }
+      ask: "Is there an 'I can't' you'd like to swap?" },
+    { id: "ae9", title: "DryDock: name your Game Days", mins: 3, focus: "The whole equation", related: ["drydock", "scoring", "game-day"],
+      lead: "Where ascending into Elite is critical.",
+      body: [
+        "DryDock comes first in the Wardroom: \"Pulling the battleship out of the water and finding the flaws.\" An honest inventory. Here it has one more job: <b>naming your Game Days.</b>",
+        "A Game Day is a <b>live</b> or <b>real</b> event in your life … a moment you've been building toward, where ascending into Elite is critical. A talk you'll give. A season opener. A hard conversation that's coming. The thing itself, not the practice for it.",
+        "In this app, <b>only a rep tagged to one of your Game Days can score Elite +3.</b> Everything else tops out at Excellent +2. That's not a consolation prize; it's the work that gets you ready.",
+        "The Elite <i>mindset</i> (Not Done Yet) is for every day. The Elite <i>score</i> is for the moments you named.",
+        "You define them, not us. Only you know where ascending into Elite is critical in your life right now."
+      ],
+      quote: "Elite is for the moments you've been building toward.",
+      rep: "Open the DryDock tab and name your first Game Day. Mark it live or real, and write what you've been building toward.",
+      reflect: "Which live or real event, in the next 90 days, is the one where you can't afford to be merely excellent?",
+      note: "DryDock is where you name your Game Days: the live and real events you've been building toward, where ascending to Elite is critical. Only a rep tagged to one of them can score Elite +3; everything else tops out at Excellent +2.",
+      ask: "What's one live or real event you've been building toward?" }
   ]
 };
