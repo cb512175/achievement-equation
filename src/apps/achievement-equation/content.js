@@ -1,0 +1,133 @@
+/* AchievementEquation v1 content. Compiled from Clint Bruce's HoldFast material:
+   The Achievement Equation, CaptainsCourse Core24 (2026), Clint's teaching texts and emails,
+   and the CoachClint manual v1.3. Draft lessons for Clint's review. */
+window.APP = {
+  id: "ae",
+  name: "AchievementEquation",
+  storageKey: "holdfast-achievementequation-v1",
+  kicker: "HoldFast · The AchievementEquation",
+  headline: "Angles + Allies + Advantages = Achievements",
+  intro: "Clint wrote this equation on a 3x5 card in 8th grade, when he was the 5th-string fullback on a team with only 3 other fullbacks. Talent is real, but it isn't enough. It became one third of the equation, not the whole story. These lessons walk through each piece, then help you score your reps against it.",
+  how: ["Learn: one piece of the equation at a time", "Rep: plan with the equation before, review with it after", "Score: Bad −1 to Excellent +2 (Elite +3 is for game day)", "Talk it through with CoachClint"],
+  scoreFocusLabel: "Where this rep lives",
+  scoreFocus: ["Angles", "Allies", "Advantages", "The whole equation"],
+  breakdown: [
+    { group: "Angles", items: ["Tactics", "Techniques", "Teammate", "Tools", "Technology"] },
+    { group: "Allies", items: ["Allies"] },
+    { group: "Advantages", items: ["Talent", "Treasure"] }
+  ],
+  chips: ["I'm not talented enough", "I can't do sales", "First time pitching a client today", "I feel like I'm doing this alone", "How does scoring work?"],
+  modules: [
+    { id: "ae1", title: "The 3x5 card", mins: 3, focus: "The whole equation", related: ["equation", "achieving-average"],
+      lead: "Putting talent in its place.",
+      body: [
+        "\"I loved football WAY sooner than football loved me.\" In 8th grade Clint was so bad he was the 5th-string fullback on a team with only 3 other fullbacks. His coach told him to stop wasting both their time.",
+        "He needed a way not to get destroyed at practice. So he wrote an equation on a 3x5 card: <b>Angles + Allies + Advantages = Achievements.</b>",
+        "\"I realized talent was real … but it wasn't enough. Many people had more natural ability than me. I needed to make something else the majority factor so I could hold my own and exceed those more gifted. <b>Talent became just one-third of the equation, not the whole story.</b>\"",
+        "That equation took him from 5th-string fullback to Hall of Fame linebacker at the Naval Academy, a couple of hot cups of coffee in the NFL, BUD/S Class 217, SEAL Team FIVE, and 20+ years as an entrepreneur. \"It wasn't talent. It was the equation.\"",
+        "It's become an operating system he's lived by \"almost subconsciously\" … and proof that achievement isn't reserved for the naturally gifted. It's available to those who master the full equation."
+      ],
+      quote: "It wasn't talent. It was the equation.",
+      rep: "Write the equation on a 3x5 card. Under each word, write one thing you already have going for you.",
+      reflect: "Where have you been treating talent as the whole story?",
+      note: "Clint wrote Angles + Allies + Advantages = Achievements on a 3x5 card as a 5th-string 8th-grade fullback. Talent became one third of the equation, not the whole story.",
+      ask: "Which of the three are you leaning on hardest, and which are you ignoring?" },
+    { id: "ae2", title: "Angles: the 5 you control", mins: 4, focus: "Angles", related: ["angles", "d3"],
+      lead: "Tactics, Techniques, Teammates, Tools, Technology.",
+      body: [
+        "Angles are the <b>5 elements you control completely</b>:",
+        "<b>Tactics</b> … the specific approach you take to the mission at hand. Deliberate. Chosen. Refined.<br><b>Techniques</b> … mastery of the skills the mission demands. Not just knowing … doing. Repeatedly.<br><b>Teammates</b> … who you bring, and who you are. Yourself as a teammate, plus the few to your left and right.<br><b>Tools</b> … the equipment, systems, and resources you deploy. Chosen with intention. Maintained with discipline.<br><b>Technology</b> … the evolving capabilities available to you. Adopted thoughtfully. Never a substitute for fundamentals.",
+        "Clint's standard: \"Know and improve my craft. Constantly. <b>Ruthlessly and relentlessly reduce internal and external sources of friction and resistance.</b>\"",
+        "Angles are both <b>planning inputs and measurement outputs</b>. You plan with them before the mission. You review with them after. Plan → execute → review → improve. That loop is the AchievementEquation running in real time."
+      ],
+      quote: "Ruthlessly and relentlessly reduce internal and external sources of friction.",
+      rep: "Before your next important task, write one line for each Angle. Afterward, score each one in the Score tab.",
+      reflect: "Which Angle is creating the most friction for you right now?",
+      note: "Angles are the 5 elements you control: Tactics, Techniques, Teammates (you and the few to your left and right), Tools, and Technology. Plan with them before, review with them after.",
+      ask: "Which Angle is creating the most friction right now?" },
+    { id: "ae3", title: "Allies: aligned, not alike", mins: 4, focus: "Allies", related: ["allies", "tribalism"],
+      lead: "The people factor that makes the impossible possible.",
+      body: [
+        "\"Find good people to do hard things with. Be for them what I need them to be for me … <b>be the first to the hurt. Try to stay there the longest.</b>\"",
+        "This isn't networking or collecting contacts. It's building a coalition of committed people who share your conviction and complement your capabilities.",
+        "<b>Shared conviction.</b> \"An opinion can be argued with, but a conviction is best shot\" (T.E. Lawrence). Opinions fade when the going gets tough. Convictions endure through the storm.",
+        "<b>Aligned but NOT alike.</b> Mono-cultures are rigid, fragile, and shatter under enough chaos. Diversity makes us durable: alignment on the destination, diversity in the journeys, skills, scars, and strengths that build the plan.",
+        "And maybe the most important job of an Ally: \"We have to know when to NOT listen to ourselves about ourselves. <b>I wouldn't let anyone talk to me the way I talk to me sometimes.</b> We have to know WHO to listen to when we should not listen to ourselves.\""
+      ],
+      quote: "Be the first to the hurt. Try to stay there the longest.",
+      rep: "Name one Ally who tells you the truth with the mission of making you better. Tell them what you're working on.",
+      reflect: "Who do you listen to when you shouldn't listen to yourself?",
+      note: "Allies are good people to do hard things with: shared conviction, aligned but not alike. They help you know when not to listen to yourself about yourself, and who to listen to instead.",
+      ask: "Who's one person who tells you the truth to make you better?" },
+    { id: "ae4", title: "The 5 Allies to Have … and to Be", mins: 4, focus: "Allies", related: ["five-allies", "archers"],
+      lead: "And the Mirror Principle.",
+      body: [
+        "<b>(1) Fellow Travelers</b> … going with you to the high and hard X, shoulder to shoulder.",
+        "<b>(2) The Veterans</b> … they've been to the X you're heading toward and can warn you about the terrain.",
+        "<b>(3) The Prevented</b> … they wanted to go but could not, because of circumstance, event, or lack of opportunity. They pour what they can into you, and you carry part of them to where they wish they could have gone.",
+        "<b>(4) The Redeemed</b> … they could have gone but would not, because of their own choices. They preach from their pain and help you miss the harm they hit. \"Stack these people in your world. Be that for others.\"",
+        "<b>(5) The Champions</b> … PICs, Passionate Irrational Champions, who believe in you more than you'll ever believe in yourself. Rare rocket fuel.",
+        "<b>The Mirror Principle:</b> it's as important to BE these five for others. \"Having these is impact, an arrow. An arrow makes a difference wherever it hits. Being these is influence, an archer. An archer makes a difference wherever they aim.\""
+      ],
+      quote: "An arrow makes a difference wherever it hits. An archer makes a difference wherever they aim.",
+      rep: "Write one name next to each of the 5 types. Then pick one type you'll BE for someone this week.",
+      reflect: "Which of the five is missing from your crew? Which one could you be for someone else?",
+      note: "The 5 Allies to have and to be: Fellow Travelers, Veterans, the Prevented, the Redeemed, and Champions (PICs). The Mirror Principle: having them is impact (an arrow); being them is influence (an archer).",
+      ask: "Which of the five is missing from your crew right now?" },
+    { id: "ae5", title: "Advantages: Talent & Treasure", mins: 4, focus: "Advantages", related: ["advantages", "advantage-adversity"],
+      lead: "Stewards, not sources. And NOT time.",
+      body: [
+        "In the AchievementEquation, Advantages are <b>Talent and Treasure. NOT time.</b> \"Time is measured absolutely, yes, but experienced and used relatively. Talent lets you do things faster. Treasure lets you hand things off or bring in help so they get done faster.\"",
+        "The reframe that changes everything: <b>you are a steward of your Advantages, not their source.</b> You're rarely the origin of your talent or your treasure. You're the custodian of both.",
+        "\"The question is never 'Do I have enough?' The question is always '<b>Am I stewarding what I have well enough?</b>'\"",
+        "When an Advantage collides with adversity, one of three things happens: (1) it's <b>affirmed</b> … proven; (2) a <b>new advantage is revealed</b> … necessity is the mother of discovery; or (3) it's <b>overcome</b>, but look left and right and you'll often find a teammate who had the advantage, or found one. Then recalibrate … or drift.",
+        "The hardest test isn't when everything's going well. It's when the Advantages you planned with disappear mid-mission. The equation still has to work."
+      ],
+      quote: "We are stewards, not sources.",
+      rep: "List one Talent and one Treasure you've been given. Write how you'll steward each one better this week.",
+      reflect: "Am I stewarding what I have well enough?",
+      note: "Advantages are Talent and Treasure, not time. We're stewards, not sources. When an Advantage meets adversity it's affirmed, a new one is revealed, or it's overcome and a teammate carries the day.",
+      ask: "What's one Advantage you haven't been stewarding?" },
+    { id: "ae6", title: "Scoring: it's data", mins: 3, focus: "The whole equation", related: ["scoring", "courage-story"],
+      lead: "Score the equation after every rep.",
+      body: [
+        "\"The scoring systems aren't judgements … they're data … they give me fast ways to decide 1 of 3 paths to take\" as you measure the impact of a tactic, technique, teammate, tool, or technology. Push, pause, or pivot.",
+        "The official HoldFast scale: <b>Bad −1 · Average 0 · Good +1 · Excellent +2.</b>",
+        "<b>Elite +3 is saved for game day</b> … the actual game, the real mission, the other side of the actual adventure. In practice, drills, and course work, Excellent +2 is the ceiling. \"Love the fire. But Elite is saved for game day.\"",
+        "<b>The Courage Credit (+0.5):</b> the first time you try something, your floor is +0.5. \"We can't call it good, but it's more than average because it took courage to try it.\" It shows as its own badge, even if you scored higher. After that, the normal scale applies.",
+        "It comes from Clint's teaching that \"curiosity is the first evidence of courage\" … and from \"I couldn't\" vs. \"I can't\": one means we didn't try, the other means we did."
+      ],
+      quote: "Elite is saved for game day.",
+      rep: "Score today's most important rep, breaking it down across the Angles, Allies, and Advantages.",
+      reflect: "Which part of the equation scores lowest for you, week after week?",
+      note: "Scores are data, not judgements: Bad −1, Average 0, Good +1, Excellent +2, Elite +3 only on game day, and a +0.5 Courage Credit floor for first attempts.",
+      ask: "Want to score a rep together?" },
+    { id: "ae7", title: "The Achieving Average", mins: 3, focus: "The whole equation", related: ["achieving-average", "d3", "doubt"],
+      lead: "Fear the Achieving Average.",
+      body: [
+        "An Achieving Average is \"someone who's not terribly gifted but has managed to be a part of some mighty achievements\" by finding Angles, Allies, and Advantages.",
+        "<b>\"The mountain makes all men and women average if we're aiming high enough.\"</b>",
+        "\"Fear the Achieving Average … if you're talented and alone … we'll win every time.\"",
+        "A humility reframe: \"Genuine humility is thinking about yourself less, not thinking less of yourself.\" Saying \"I can't\" with certainty is \"not humility. It's arrogance.\"",
+        "The process is <b>D3: Decision, Design, Discipline.</b> \"It's how a fifth-string nobody became a SEAL.\""
+      ],
+      quote: "The mountain makes all men and women average if we're aiming high enough.",
+      rep: "Run a D3 on one X: the Decision (one sentence), the Design (v1 of the plan), the Discipline (what, when, how you'll measure it).",
+      reflect: "Where are you aiming high enough that the mountain makes you average?",
+      note: "The Achieving Average isn't terribly gifted but is part of mighty achievements through Angles, Allies and Advantages. The process is D3: Decision, Design, Discipline.",
+      ask: "What's the Decision you'd make if you believed the equation works for you too?" },
+    { id: "ae8", title: "\"I can't\" vs. \"I couldn't\"", mins: 3, focus: "The whole equation", related: ["courage-story"],
+      lead: "Why first attempts earn a Courage Credit.",
+      body: [
+        "From Clint's post, \"Just thinkin' out loud …\": \"I was telling [BraveBruceBeauty#3] to banish 'I can't' from her lexicon. Yet I had no problem with 'I couldn't.' Because one means we didn't try and the other means we did. <b>And that's the point of most everything … the trying.</b>\"",
+        "\"<b>There's virtue in the valor of effort.</b> There are lessons to be learned. And, many times, scars to be shared.\"",
+        "\"Sometimes all you need is <b>20 seconds of insane courage</b>\" (<i>We Bought a Zoo</i>, a BraveBruceBeauties favorite). And the SAS motto, from a great friend who served years in that legendary unit: <b>Who Dares Wins.</b>",
+        "\"I've said 'I couldn't …' a thousand more times than I've said 'I can't.'\" The Courage Credit is \"I couldn't\" made measurable."
+      ],
+      quote: "That's the point of most everything … the trying.",
+      rep: "Find one \"I can't\" in your week. Make it \"I haven't tried (yet)\" and take the first rep.",
+      reflect: "What would you try if you only needed 20 seconds of brave?",
+      note: "Clint banishes 'I can't' but welcomes 'I couldn't': one means we didn't try and the other means we did. First attempts earn a Courage Credit (+0.5 floor).",
+      ask: "Is there an 'I can't' you'd like to swap?" }
+  ]
+};
